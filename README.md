@@ -6,4 +6,12 @@ Pedro
 Thales
 Victor Rojas
 
-Grande variedade que porporciona um amplo dataset
+Consumo de combuistivel por km rodado
+x = gasolina
+y = alcool
+
+>0.4 = razoavel
+>0.6 = bom
+>0.8 Otimo
+
+
