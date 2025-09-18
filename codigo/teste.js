@@ -41,7 +41,8 @@ function regressaoLinear(x, y) {
 }
  
 // Dados realistas para consumo de carros (km/l)
-const consumoGasolina = [12, 14, 11, 15, 13, 10, 16]; // agora é X
+const consumoGasolina = [13, 15, 11, 14, 10, 9, 12, 15, 13, 11, 12, 10, 14, 9, 16, 15, 12, 10, 13, 14, 12, 15, 10, 13, 14, 16, 11, 13, 9, 15, 12, 10, 14, 11, 13, 10, 15, 9, 12, 16, 14, 10, 13, 12, 9, 15, 13, 14, 16, 12, 11, 10, 13, 14, 9, 15, 16, 11, 12, 10, 13, 14, 9, 13, 16, 12, 15, 10, 9, 11, 14, 15, 12, 16, 9, 13, 11, 10, 15, 14, 16, 13, 12, 9, 10, 13, 15, 16, 9, 11, 12, 10, 14, 15, 13, 9, 16, 14, 13, 12, 15, 10, 11, 9, 16, 14, 10, 15
+]; // agora é X
 // Consumo álcool 
 const consumoAlcool = consumoGasolina.map(g => +(g * 0.7 + (Math.random() * 0.5 - 0.25)).toFixed(2)); // agora é Y
 
